@@ -1,0 +1,31 @@
+rootProject.name = 'router-study'
+// 声明当前工程包含哪些子工程
+include ':app', ':biz-reading', ':router-runtime', ':router-annotations', ':router-processor'
+println("[lifecycle] I am setting.gradle")
+// 添加构建的生命周期监听
+gradle.addBuildListener(new BuildListener() {
+    @Override
+    void buildStarted(Gradle gradle) {
+
+    }
+
+    @Override
+    void settingsEvaluated(Settings settings) {
+        println("[lifecycle] 初始化阶段完成")
+    }
+
+    @Override
+    void projectsLoaded(Gradle gradle) {
+
+    }
+
+    @Override
+    void projectsEvaluated(Gradle gradle) {
+        println("[lifecycle] 配置阶段完成")
+    }
+
+    @Override
+    void buildFinished(BuildResult buildResult) {
+        println("[lifecycle] 构建结束")
+    }
+})

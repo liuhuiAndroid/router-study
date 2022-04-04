@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+// 应用我们的 路由插件
+apply plugin: 'com.imooc.router'
+
+router {
+    wikiDir getRootDir().absolutePath
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.imooc.gradle.lifecycle"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':router-annotations')
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    kapt project(':router-processor')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation project(':biz-reading')
+    implementation project(':router-runtime')
+}
+
+println("[lifecycle] I am app build.gradle")
+println("[lifecycle] I am app ${project.projectDir}")
+
+task testTask() {
+    doLast {
+        println("[lifecycle] I am testTask doLast")
+    }
+}
