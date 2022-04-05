@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-
-// 应用我们的 路由插件
+// 使用路由插件
 apply plugin: 'com.imooc.router'
-
+// 使用Extension
 router {
     wikiDir getRootDir().absolutePath
 }
 
+// 配置插件
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"

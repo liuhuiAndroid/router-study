@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-study.iml" filepath="$PROJECT_DIR$/.idea/modules/router-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/router-study.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/router-study.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biz-reading/router-study.biz-reading.iml" filepath="$PROJECT_DIR$/.idea/modules/biz-reading/router-study.biz-reading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-study.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/router-study.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-annotations/router-study.router-annotations.iml" filepath="$PROJECT_DIR$/.idea/modules/router-annotations/router-study.router-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-gradle-plugin/router-study.router-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/router-gradle-plugin/router-study.router-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-processor/router-study.router-processor.iml" filepath="$PROJECT_DIR$/.idea/modules/router-processor/router-study.router-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-runtime/router-study.router-runtime.iml" filepath="$PROJECT_DIR$/.idea/modules/router-runtime/router-study.router-runtime.iml" />
+    </modules>
+  </component>
+</project>
