@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45dfa48d27557d73d0c4498334a24c65/loader-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d257936014f139102ebf9d28c574f592/loader-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3035bf016a93ea0b67150c06b1b9265a/loader-1.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3035bf016a93ea0b67150c06b1b9265a/loader-1.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3035bf016a93ea0b67150c06b1b9265a/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9753156ba1bf9eb66dccb22492c90e9a/loader-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9753156ba1bf9eb66dccb22492c90e9a/loader-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9753156ba1bf9eb66dccb22492c90e9a/loader-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -115,7 +115,7 @@ public class DestinationProcessor extends AbstractProcessor {
         }
         File mappingFile = new File(routerFileDir,
                 "mapping_" + System.currentTimeMillis() + ".json");
-        // 写入json内容
+        // 写入json内容,路由文档
         try {
             BufferedWriter out = new BufferedWriter(new FileWriter(mappingFile));
             String jsonStr = destinationJsonArray.toString();
