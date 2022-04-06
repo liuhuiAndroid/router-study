@@ -4,6 +4,10 @@ import org.objectweb.asm.ClassWriter
 import org.objectweb.asm.MethodVisitor
 import org.objectweb.asm.Opcodes
 
+/**
+ * 生成字节码
+ * 插件：ASM Bytecode Outline
+ */
 class RouterMappingByteCodeBuilder implements Opcodes {
 
     public static final String CLASS_NAME =
