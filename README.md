@@ -10,3 +10,4 @@ Android的配置就是自定义DSL
 gradlew :router-gradle-plugin:uploadArchives，发布插件：router-gradle-plugin
 gradlew :app:assembleDebug -q
 gradlew :router-annotations:uploadArchives
+gradlew :router-runtime:uploadArchives
