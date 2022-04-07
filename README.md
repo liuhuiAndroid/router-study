@@ -11,3 +11,5 @@ gradlew :router-gradle-plugin:uploadArchives，发布插件：router-gradle-plug
 gradlew :app:assembleDebug -q
 gradlew :router-annotations:uploadArchives
 gradlew :router-runtime:uploadArchives
+gradlew :app:dependencies
+BuildConfig,是Android编译期间gradle帮助生成的类

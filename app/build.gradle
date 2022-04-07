@@ -50,3 +50,5 @@ task testTask() {
         println("[lifecycle] I am testTask doLast")
     }
 }
+
+apply from: project.file('read_local_prop.gradle')

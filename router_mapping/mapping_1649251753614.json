@@ -1,1 +1,0 @@
-[{"url":"router://imooc/profile","description":"个人信息","realPath":"com.imooc.router.demo.ProfileActivity"},{"url":"router://page-kotlin","description":"登录页面","realPath":"com.imooc.router.demo.KtMainActivity"},{"url":"router://page-home","description":"应用主页","realPath":"com.imooc.router.demo.MainActivity"}]
